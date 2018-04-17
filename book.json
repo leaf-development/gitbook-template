@@ -1,0 +1,15 @@
+{
+  "gitbook": "3.2.1",
+  "language": "en",
+  "title": "",
+  "description": null,
+  "plugins": [
+    "simple-page-toc"
+  ],
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "structure": {
+    "readme": "intro.md"
+  }
+}

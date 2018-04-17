@@ -1,0 +1,9 @@
+version: '3'
+services:
+  gitbook:
+    image: leafdevelop/gitbook
+    volumes:
+      - .:/gitbook
+    ports:
+      - "4000:4000"
+    command: bash -c "gitbook install && gitbook serve"
